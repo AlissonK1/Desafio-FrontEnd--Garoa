@@ -26,7 +26,7 @@
         
     main {
         margin-left: 25vw;
-        width: 100vw;
+        width: 75vw;
     }
 
     main .header-main {
@@ -89,6 +89,54 @@
     main .header-main .header-cont .cont-image{
         width: 25px;
         height: 25px;
+    }
+
+    main .conteudo-titulo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .conteudo-titulo h2{
+        width: 70vw;
+        margin-bottom: 20px;
+    }
+
+    main .conteudo-titulo .container-btns-titulo {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    main .p1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main .detalhes {
+        width: 243px;
+        height: 439px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        border-radius: 3px;
+        border: 1px solid rgba(236, 236, 236, 1);
+    }
+
+    main .conteudo-secao .video {
+        margin-top: 15px;
+        border-radius: 3px;
+        width: 75vw;
+        height: auto;
+        background-size: cover;
+    }
+
+    main .conteudo-secao .video .video-a {
+        width: 75vw;
+        height: 439px;
+        background: rgba(141, 53, 6, 0.5);
+        border-radius: 3px;
     }
 
 }
