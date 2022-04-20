@@ -5,7 +5,7 @@
 }
 
 header{
-    width: 220px;
+    width: 230px;
     height: 2508px;
     position: fixed;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -15,8 +15,8 @@ header .titulo{
     display: flex;
     align-items: center;
     text-align: center;
-    width: 220px;
-    height: 68px;
+    width: 230px;
+    height: 78px;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 }
 
@@ -28,13 +28,12 @@ header h1{
 }
 
 header nav{
-    width: 220px;
+    width: 230px;
     height: 198px;
-
 }
 
 header li{
-    width: 220px;
+    width: 230px;
     height:33px;
     font-size: 15px;
     font-family: 'Quicksand', sans-serif;
@@ -54,12 +53,12 @@ header li:hover{
 }
 
 header img{
-    width: 220px;
-    height: 258px;
+    width: 230px;
+    height: 268px;
 }
 
 main{
-    margin-left: 220px;
+    margin-left: 230px;
     margin-right: 0px;
 }
 
@@ -68,7 +67,7 @@ main .header-main{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
-    height: 68px;
+    height: 78px;
     background: #FDF1EB;
 }
 
@@ -97,6 +96,11 @@ main .header-main .texto-3{
     line-height: 16px;
 }
 
+main .header-main .header-info-up{
+    display: flex;
+    padding-right: 0px;
+}
+
 main .header-main .header-cont{
     display: flex;
     font-family: 'Quicksand', sans-serif;
@@ -123,7 +127,7 @@ main .header-main .header-button{
     border-radius: 3px;
     background-color: transparent;
     margin-right: 20px;
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
 main .header-main .header-button p{
@@ -185,8 +189,8 @@ main .conteudo-titulo p{
 main .conteudo-titulo .container-btns-titulo{
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
-    margin-right: -10px;
+    margin-left: 70px;
+    padding-right: 0;
 }
 
 main .conteudo-titulo .btns-titulo{

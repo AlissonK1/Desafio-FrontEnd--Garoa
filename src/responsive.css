@@ -23,6 +23,10 @@
         width: 25vw;
         padding-left: 15px;
     }
+
+    header nav {
+        width: 100%;
+    }
         
     main {
         margin-left: 25vw;
@@ -47,8 +51,8 @@
     
     main .header-main .texto-2{
         margin-top: 2px;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 19px;
     }
     
     main .header-main .texto-3{
@@ -79,11 +83,11 @@
     }
 
     main .header-main .header-info .t-1{
-        font-size: 12px;
+        font-size: 11px;
     }
     
     main .header-main .header-info .t-2{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     main .header-main .header-cont .cont-image{
@@ -97,8 +101,9 @@
     }
 
     main .conteudo-titulo h2{
-        width: 70vw;
+        width: 65vw;
         margin-bottom: 20px;
+        font-size: 18px;
     }
 
     main .conteudo-titulo .container-btns-titulo {
@@ -139,5 +144,102 @@
         border-radius: 3px;
     }
 
+    main #adicionar-p1 p {
+        justify-content: center;
+        margin: auto;
+        margin-top: 27px;
+        width: 100%;
+    }
+
+    main #adicionar-p1 .imgs .img {
+        width: 55px;
+        height: 55px;
+        margin-right: 25px;
+    }
+
+    #btnNovoTopico{
+        margin-top: 14px;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 133px;
+        height: 32px;
+        font-size: 15px;
+        line-height: 16px;
+        color: white;
+        border: none;
+    }
+
+    main .resumo{
+        width: 60vw;
+    }
+
+    main .discussoes{
+        width: 60vw;
+    }
+
+    main #adicionar-p2 .conteudo{
+        width: 60vw;
+        height: 82px;
+    }
+
+    main #adicionar-p2 .titulo{
+        width: 60vw;
+        height: 40px;
+    }
+
+    main #adicionar-p3 button{
+        margin-left: 12vw;
+    }
+
+    main #adicionar-p3 .blur .aguardando{
+        text-align: center;
+    }
+
+    main #adicionar-p3 .blur i{
+        text-align: center;
+    }
+
+    main #adicionar-p3 .blur .editar{
+        text-align: center;
+    }
+
+    main .comentarios .comentario-1 p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    main #adicionar-p3 .blur{
+        background-image: url(../img/blur-responsive.png);
+        width: 60vw;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    main #comentario-pre button {
+        font-size: 13px;
+        line-height: 14px;
+        text-align: center;
+        padding: 2px 20px;
+        margin-left: 3px;
+    }
+
+    main #comentario-pos button{
+        font-size: 13px;
+        line-height: 14px;
+        text-align: center;
+        padding: 2px 17px;
+        margin-left: 3px;
+    }
+
+    main #comentario-pos .resposta-t1{
+        height: 250px;
+    }
+    
+    main #comentario-pos .resposta-t2{
+        height: 350px;
+    }
 }
 
