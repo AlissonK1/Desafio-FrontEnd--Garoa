@@ -212,6 +212,21 @@ main .conteudo-titulo .btn-download, .btn-favorite, .btn-doi{
     font-size: 16px;
 }
 
+main .conteudo-titulo .btn-download:hover{
+    cursor: pointer;
+    background: #e6621b;
+}
+
+main .conteudo-titulo .btn-favorite:hover{
+    cursor: pointer;
+    background: #e6621b;
+}
+
+main .conteudo-titulo .btn-doi:hover{
+    cursor: pointer;
+    background: #e6621b;
+}
+
 main .conteudo-titulo .btn-download{
     width: 120px;
 }
