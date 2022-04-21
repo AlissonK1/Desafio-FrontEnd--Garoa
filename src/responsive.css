@@ -287,10 +287,28 @@
     }
 }
 
-@media (min-width: 700px) and (max-width: 1024px){
+@media (min-width: 700px) and (max-width: 1019px){
+
+    header{
+        width: 20vw;
+    }
+
+    header .titulo{
+        width: 20vw;
+        height: 88px;
+    }
+
+    header img {
+        width: 20vw;
+        height: 180px;
+    }
+
+    header li{
+        width: 20vw;
+    }
 
     body{
-        width: 75vw;
+        width: 80vw;
     }
 
     header .titulo{
@@ -299,6 +317,7 @@
 
     main {
         width: 100%;
+        margin-left: 20vw;
     }
 
     main .header-main {
@@ -477,7 +496,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width:1400px){
+@media (min-width: 1020px) and (max-width:1400px){
 
     header{
         width: 17vw;
