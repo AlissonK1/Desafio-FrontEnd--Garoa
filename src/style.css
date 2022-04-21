@@ -225,6 +225,9 @@ main .conteudo-titulo .btn-favorite:hover{
 main .conteudo-titulo .btn-doi:hover{
     cursor: pointer;
     background: #e6621b;
+    background-image: url(../img/doi.jpg);
+    background-position: center;
+    background-size: contain;
 }
 
 main .conteudo-titulo .btn-download{
@@ -236,6 +239,12 @@ main .conteudo-titulo .btn-download i{
 }
 main .conteudo-titulo .btn-favorite, .btn-doi{
     width: 43px;
+}
+
+main .conteudo-titulo .btn-doi{
+    background-image: url(../img/doi.jpg);
+    background-position: center;
+    background-size: contain;
 }
 
 .p1{
