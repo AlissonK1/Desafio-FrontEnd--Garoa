@@ -131,6 +131,10 @@
         border: 1px solid rgba(236, 236, 236, 1);
     }
 
+    main .conteudo-secao{
+        width: 60vw;
+    }
+
     main .conteudo-secao .video {
         margin-top: 15px;
         border-radius: 3px;
@@ -283,3 +287,393 @@
     }
 }
 
+@media (min-width: 700px) and (max-width: 1024px){
+
+    body{
+        width: 75vw;
+    }
+
+    header .titulo{
+        height: 92px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main .header-main {
+        width: 100%;
+        height: 92px;
+    }
+
+    main .header-main .header-titulo{
+        margin-left: 10px;
+    }
+
+    main .header-main .header-cont {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+
+    main .header-main .header-button{
+        margin-top: 5px;
+    }
+
+    main .header-main .texto-1{
+        font-size: 13px;
+        line-height: 14px;
+        margin-top: 3px;
+    }
+    
+    main .header-main .texto-2{
+        font-weight: bold;
+        margin-top: 3px;
+        font-size: 16px;
+        line-height: 17px;
+    }
+    
+    main .header-main .texto-3{
+        font-size: 13px;
+        line-height: 14px;
+        margin-top: 3px;
+    }
+
+    main .conteudo-titulo h2{
+        width: 100%;
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    main .conteudo-titulo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    main .conteudo-titulo .container-btns-titulo {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    main .conteudo-secao {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    main .conteudo-secao .video p{
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    main .conteudo-secao .video-b img{
+        width: 64px;
+        height: 66px;
+    }
+
+    main .conteudo-secao .video-b .t-1{
+        font-size: 24px;
+    }
+
+    main .conteudo-secao .video-b .t-2{
+        font-size: 18px;
+    }
+
+    main .p1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    main .detalhes{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    main .detalhes h3{
+        width: 100%;
+    }
+
+    main .resumo{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video .video-a{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video .video-b{
+        width: 100%;
+        margin-top: 240px;
+    }
+
+    #adicionar-topico {
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+
+    #btnNovoTopico{
+        margin-left: 40%;
+    }
+
+    #adicionar-p1{
+        width: 100%;
+    }
+
+    #adicionar-p1 p{
+        width: 90%;
+    }
+
+    #adicionar-p2 {
+        width: 93%;
+    }
+
+    #adicionar-p2 .titulo {
+        width: 100%;
+    }
+
+    #adicionar-p2 .conteudo {
+        width: 100%;
+    }
+
+    #adicionar-p3{
+        display: none;
+    }
+
+    #adicionar-p3{
+        width: 100%;
+    }
+
+    #adicionar-p3 .blur{
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    #adicionar-p3 button{
+        margin-left: 35%;
+        margin-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #comentario-pos .resposta-t1{
+        height:auto;
+        margin-bottom: 10px;
+    }
+
+    #comentario-pos .resposta-t2{
+        height:240px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1400px){
+
+    header{
+        width: 17vw;
+    }
+
+    header .titulo{
+        width: 17vw;
+        height: 88px;
+    }
+
+    header img {
+        width: 17vw;
+        height: 228px;
+    }
+
+    header li{
+        width: 17vw;
+    }
+
+    body{
+        width: 83vw;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 17vw;
+    }
+
+    main .header-main {
+        width: 100%;
+        height: 88px;
+    }
+
+    main .header-main .header-titulo{
+        margin-left: 25px;
+    }
+
+    main .header-main .header-cont {
+        display: flex;
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+
+    main .header-main .header-button{
+        margin-top: 5px;
+    }
+
+    main .header-main .texto-1{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    main .header-main .texto-2{
+        font-weight: bold;
+        margin-top: 3px;
+        font-size: 20px;
+        line-height: 21px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    
+    main .header-main .texto-3{
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 3px;
+    }
+
+    main .conteudo-titulo h2{
+        width: 100%;
+    }
+
+    main .conteudo-titulo {
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    main .conteudo-titulo .container-btns-titulo {
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    main .conteudo-secao {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    main .conteudo-secao .video p{
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    main .conteudo-secao .video-b img{
+        width: 64px;
+        height: 66px;
+    }
+
+    main .conteudo-secao .video-b .t-1{
+        font-size: 24px;
+    }
+
+    main .conteudo-secao .video-b .t-2{
+        font-size: 18px;
+    }
+
+    main .p1{
+        display: flex;
+        width: 100%;
+    }
+
+    main .detalhes{
+        width: 40%;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    main .detalhes h3{
+        width: 100%;
+    }
+
+    main .resumo{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video .video-a{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video .video-b{
+        width: 100%;
+        margin-top: 240px;
+    }
+
+    #adicionar-topico {
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+
+    #btnNovoTopico{
+        margin-left: 43%;
+    }
+
+    #adicionar-p1{
+        width: 100%;
+    }
+
+    #adicionar-p1 p{
+        width: 90%;
+    }
+
+    #adicionar-p2 {
+        width: 93%;
+    }
+
+    #adicionar-p2 .titulo {
+        width: 100%;
+    }
+
+    #adicionar-p2 .conteudo {
+        width: 100%;
+    }
+
+    #adicionar-p3{
+        display: none;
+    }
+
+    #adicionar-p3{
+        width: 100%;
+    }
+
+    #adicionar-p3 .blur{
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    #adicionar-p3 button{
+        margin-left: 43%;
+        margin-right: 447px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #comentario-pos .resposta-t1{
+        height:auto;
+        margin-bottom: 10px;
+    }
+
+    #comentario-pos .resposta-t2{
+        height:240px;
+        margin-bottom: 10px;
+    }
+}

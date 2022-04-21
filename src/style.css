@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+    margin: 0px;
+}
+
+html{
+    width: 100vw;
+}
+
 header{
     width: 230px;
     height: 2508px;
