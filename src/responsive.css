@@ -698,3 +698,89 @@
         margin-bottom: 10px;
     }
 }
+
+@media screen and (min-width: 1400px){
+    main .header-main{
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .p1{
+        width: 100%;
+    }
+
+    main .conteudo-titulo{
+        display: flex;
+        width: 100%;
+        justify-content:space-between;
+    }
+
+    main .conteudo-titulo .container-btns-titulo{
+        margin-right: 70px;
+    }
+
+    main .detalhes{
+        width: 40%;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    main .detalhes h3{
+        width: 100%;
+    }
+
+    main .resumo{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video .video-a{
+        width: 100%;
+    }
+
+    main .conteudo-secao .video .video-b{
+        width: 100%;
+    }
+
+    #btnNovoTopico{
+        margin-left: 45%;
+        margin-right:0px;
+    }
+
+    #adicionar-p2 .titulo{
+        width: 100%;
+    }
+
+    #adicionar-p2 .conteudo{
+        width: 100%;
+    }
+
+    #adicionar-p2 .bottom-cont{
+        width: 100%;
+    }
+
+    #adicionar-p2 .bottom-cont .b_i{
+        width: 80%;
+    }
+    
+    #adicionar-p2 .bottom-cont button{
+        width: 20%;
+    }
+
+    #adicionar-p3 .blur{
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #adicionar-p3 button{
+        margin-left: 45%;
+        margin-right: 0px;
+    }
+
+}
